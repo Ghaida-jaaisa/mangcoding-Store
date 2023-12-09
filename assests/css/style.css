@@ -16,6 +16,7 @@ header {
 header .container {
     background-color: white;
     display: flex;
+    flex-wrap:wrap;
     width: calc(100% - 120px);
     margin: auto;
     padding: 25px 0;
@@ -30,16 +31,17 @@ header .logo {
     color: #545BE8;
     font-size: 18px;
     font-family: Roboto;
-    min-width: 30%;
+    min-width: 150px;
 }
 
 header .logo img,
 footer .social-media .logo img {
     width: 30px;
     height: 30px;
-
 }
-
+nav{
+    min-width:100px;
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +72,7 @@ header nav li {
     align-items: center;
     gap: 30px;
     font-family: Inter;
+    min-width:100px; 
 }
 
 .container .auth .login {
