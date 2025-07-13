@@ -62,7 +62,7 @@ MangcodingStore/
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/mangcoding-store.git
+   git clone https://github.com/Ghaida-jaaisa/mangcoding-Store.git
    ```
 
 2. Navigate into project folder:
